@@ -27,6 +27,7 @@ class Validacion {
             case "1":
                 bol = true;
                 validation = false;
+                probCasa = 0;
                 break;
             default:
                 validation = true;
