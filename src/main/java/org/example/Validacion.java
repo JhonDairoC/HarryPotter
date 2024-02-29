@@ -1,12 +1,9 @@
 package org.example;
 
-import java.util.Scanner;
-
-class Pregunta {
-     protected Scanner sc = new Scanner(System.in);
+class Validacion {
      private static boolean bol = false;
-     protected String res;
-     private static int probCasa = 0;
+     private String eleccion;
+     private int probCasa = 0;
 
       void option(String scan){
           switch(scan){
@@ -27,4 +24,9 @@ class Pregunta {
      public void setProbCasa(int probCasa){
           this.probCasa += probCasa;
      }
+
+     public String getEleccion(){
+           return eleccion;
+     }
+     public void setEleccion(String eleccion){this.eleccion = eleccion;}
 }
