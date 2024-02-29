@@ -1,1 +1,2 @@
-![HarryPotter drawio](https://github.com/JhonDairoC/HarryPotter/assets/101678630/c6be6732-a0fe-44d2-88c4-4c27e2855c4b)
+
+![HarryPotter drawio (1)](https://github.com/JhonDairoC/HarryPotter/assets/101678630/2b77e3ac-c3e1-4a9d-882b-e5f843c0ab67)
