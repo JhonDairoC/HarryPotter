@@ -12,9 +12,9 @@ public class PuntajeRespuestas extends Validacion {
                 setEleccion(sc.nextLine());
                 option(getEleccion());
                 if (getEleccion().equals("1")) {
-                    setProbCasa(6);
+                    setProbCasa(5);
                 } else {
-                    setProbCasa(2);
+                    setProbCasa(1);
                 }
             } while (getBol());
 
@@ -26,7 +26,7 @@ public class PuntajeRespuestas extends Validacion {
                 if (getEleccion().equals("4")) {
                     setProbCasa(3);
                 } else {
-                    setProbCasa(2);
+                    setProbCasa(1);
                 }
             } while (getBol());
 
@@ -36,9 +36,9 @@ public class PuntajeRespuestas extends Validacion {
                 setEleccion(sc.nextLine());
                 option(getEleccion());
                 if (getEleccion().equals("3")) {
-                    setProbCasa(4);
-                } else {
                     setProbCasa(2);
+                } else {
+                    setProbCasa(1);
                 }
             } while (getBol());
 
@@ -48,7 +48,7 @@ public class PuntajeRespuestas extends Validacion {
                 setEleccion(sc.nextLine());
                 option(getEleccion());
                 if (getEleccion().equals("2")) {
-                    System.out.println(getProbCasa());
+                    setProbCasa(4);
                 } else {
                     setProbCasa(2);
                 }
